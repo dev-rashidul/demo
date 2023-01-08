@@ -191,7 +191,7 @@ button.nav-btns > a {
   }
   .hero-main-heading {
     font-size: 30px !important;
-    line-height: 30px;
+    line-height: 40px !important;
   }
   .hero-btn {
     margin: 10px 0 0;
