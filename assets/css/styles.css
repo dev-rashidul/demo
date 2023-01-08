@@ -813,7 +813,7 @@ nav.navbar {
 /* Products Section CSS Start */
 
 .products-wrapper {
-  padding: 100px 35px;
+  padding: 50px 35px 100px;
   overflow: hidden;
 }
 
@@ -845,7 +845,7 @@ nav.navbar {
 
 .product-name h2 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
   color: #ffffff;
@@ -991,7 +991,7 @@ nav.navbar {
 /* My CSS Responsive */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  .product-nameh2,
+  .product-name h2,
   .testimonial-content h2,
   .video-title h2 {
     font-size: 40px;
@@ -999,7 +999,7 @@ nav.navbar {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .product-nameh2,
+  .product-name h2,
   .testimonial-content h2,
   .video-title h2 {
     font-size: 36px;
@@ -1011,7 +1011,7 @@ nav.navbar {
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
-  .product-nameh2,
+  .product-name h2,
   .testimonial-content h2,
   .video-title h2 {
     font-size: 36px;
