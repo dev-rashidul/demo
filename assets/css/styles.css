@@ -813,7 +813,7 @@ nav.navbar {
 /* Products Section CSS Start */
 
 .products-wrapper {
-  padding: 100px 0;
+  padding: 100px 35px;
   overflow: hidden;
 }
 
@@ -940,6 +940,35 @@ nav.navbar {
   color: #ffffff;
 }
 
+.testimonial-wrapper .owl-carousel .owl-nav.disabled {
+  display: block;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  z-index: 1;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none;
+}
+
+.owl-prev span,
+.owl-next span {
+  font-size: 50px;
+  color: #ffffff;
+}
+
 /* Testimonial Section CSS End */
 
 /* Footer Copyright CSS */
@@ -947,6 +976,16 @@ nav.navbar {
 .copyright p,
 .copyright a {
   color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-about a {
+  transition: all 0.3s ease-in-out;
+}
+
+.copyright a:hover,
+.footer-about a:hover {
+  color: #ffff00 !important;
 }
 
 /* My CSS Responsive */
@@ -976,6 +1015,22 @@ nav.navbar {
   .testimonial-content h2,
   .video-title h2 {
     font-size: 36px;
+  }
+
+  .products-wrapper {
+    padding: 100px 0px;
+    overflow: hidden;
+  }
+
+  .testimonial-slide {
+    padding: 0 20px;
+  }
+
+  .owl-nav .owl-prev {
+    left: 0;
+  }
+  .owl-nav .owl-next {
+    right: 0;
   }
 
   .video iframe {
