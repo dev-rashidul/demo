@@ -694,6 +694,11 @@ nav.navbar {
   text-transform: capitalize;
   color: #ffffff !important;
   padding: 0 15px !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ffff00 !important;
 }
 
 .navbar-toggler {
@@ -782,7 +787,6 @@ nav.navbar {
   flex-direction: column;
   height: 100%;
   color: #fff;
-  background: rgba(0, 0, 0, 0.534);
   padding: 4em 0 0 2em;
 }
 
@@ -810,6 +814,7 @@ nav.navbar {
 
 .products-wrapper {
   padding: 100px 0;
+  overflow: hidden;
 }
 
 .products-title h2 {
@@ -865,6 +870,8 @@ nav.navbar {
 /* Video Section CSS Start */
 
 .video-wrapper {
+  background: #f5f5dd;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
